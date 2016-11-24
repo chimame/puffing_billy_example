@@ -4,7 +4,6 @@ class SamplesController < ApplicationController
   # GET /samples
   # GET /samples.json
   def index
-    @samples = Sample.all
   end
 
   # GET /samples/1
