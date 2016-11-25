@@ -1,6 +1,6 @@
 import request from 'superagent'
 
 export function exampleApi() {
-  request.get('https://example.com')
-    .end((res) => res.body)
+  return request.get('http://example.com/api')
+    .then((res) => res.body)
 }
